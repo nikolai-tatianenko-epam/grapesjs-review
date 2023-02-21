@@ -36,7 +36,10 @@ export default function (editor, opt = {}) {
 
 
 
+	domc.addType("mycustom-td", {
 
+	});
+	
 	domc.addType(TableRef, {
 
 		model: defaultModel.extend({
@@ -274,7 +277,6 @@ export default function (editor, opt = {}) {
 					<>
 						<div>
 							<Material keys={this.model.attributes.keys} data={this.model.attributes.defaultData[0]} />
-
 						</div>
 					</>
 					, el)

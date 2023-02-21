@@ -36,11 +36,7 @@ export default function (editor, opt = {}) {
 		return newObj;
 	}
 
-	
-
-	
 	domc.addType(ChartRef, {
-	
 		model: defaultModel.extend({
 			defaults: {
 				...defaultModel.prototype.defaults,
@@ -48,8 +44,7 @@ export default function (editor, opt = {}) {
 				defaultData: [[{ "Name": "Henery", "Location": "Usa", "id": "5c24dc26dc10670017e40921", "last Seen": "2020-06-10T19:51:40.452Z", "notes": "" }]],
 				prevData: [],
 				dbId:[],
-				traits:
-					[
+				traits:[
 					{
 				name:'modify',
 				type: 'button',
